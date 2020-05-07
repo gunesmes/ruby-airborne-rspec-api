@@ -12,7 +12,6 @@ module QA
   # QA runtime classes, mostly singletons.
   #
   module Runtime
-    autoload :Release, '../qa/runtime/release'
 
     module API
       autoload :Client, 'runtime/api/client'

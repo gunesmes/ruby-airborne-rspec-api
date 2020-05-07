@@ -1,0 +1,25 @@
+
+API
+  /register
+[32m    should register with valid data[0m
+[32m    should not register with already registered user[0m
+[32m    should not register with empty fields[0m
+[32m    should not register with empty username[0m
+[32m    should not register with empty email[0m
+[32m    should not register with empty birthday[0m
+[32m    should not register with empty address[0m
+[32m    should not register with wrong birthday format[0m
+
+API
+  /users
+[32m    should get all users[0m
+
+API
+  /user
+[32m    should get a valid users[0m
+[32m    should return error for post request[0m
+[32m    should return empty user list[0m
+
+Finished in 1.48 seconds (files took 0.19144 seconds to load)
+[32m12 examples, 0 failures[0m
+

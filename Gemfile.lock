@@ -113,13 +113,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (= 6.0.2)
   airborne (~> 0.3.4)
   capycon (~> 0.1.3)
   debase (~> 0.2.4.1)
   faker (~> 1.6, >= 1.6.6)
   knapsack (~> 1.17)
-  nokogiri (~> 1.10.5)
   parallel_tests (~> 2.29)
   pry-byebug (~> 3.5.1)
   rspec (~> 3.7)
