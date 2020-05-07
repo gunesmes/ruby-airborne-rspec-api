@@ -15,4 +15,5 @@ group :test do
   gem 'pry-byebug', '~> 3.5.1', platform: :mri
   gem "ruby-debug-ide", "~> 0.7.0"
   gem 'timecop', '~> 0.9.1'
+  gem 'capycon', '~> 0.1.3'
 end
