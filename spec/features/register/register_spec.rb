@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'securerandom'
-require 'byebug'
 
 module QA
   RSpec.context 'API' do

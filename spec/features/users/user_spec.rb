@@ -13,9 +13,18 @@ module QA
       it 'should get a valid users' do
         get valid_user.url
         expect_status '200'
-        expect(json_body.class).to be(Array)
-        expect(json_body.size).to eq 1
-        expect(json_body[0][:model]).to eql('src.users')
+        expect_json_types(
+          pk: :integer,
+          fields: {
+            username: :string,
+            email: :string,
+            address: :string,
+            birthday: :string,
+            premium: :boolean
+          }
+        )
+
+        expect_json(model: 'src.users')
       end
 
       it 'should return error for post request' do
@@ -26,8 +35,8 @@ module QA
       it 'should return empty user list' do
         get non_existing_user.url
         expect_status '200'
-        expect(json_body.class).to be(Array)
-        expect(json_body.size).to eq 0
+        expect_json({})
+        expect(json_body.empty?).to be true
       end
     end
   end

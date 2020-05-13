@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'airborne'
-
+require 'byebug'
 
 module QA
   module Runtime
@@ -24,7 +24,13 @@ module QA
 
         private
 
-        def create_access_token; end
+        def create_access_token;
+          # you can read token from your ENV
+          # ENV["API_TEST_ACCESS_TOKEN"]
+          #
+          # or you can call api to create token
+          #
+        end
       end
     end
   end

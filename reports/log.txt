@@ -1,0 +1,204 @@
+I, [2020-05-13T12:57:39.396085 #23565]  INFO -- : 
+Starting test: API /register should register with valid data
+
+I, [2020-05-13T12:57:39.442433 #23565]  INFO -- : 
+Starting test: API /register should not register with already registered user
+
+I, [2020-05-13T12:57:39.481218 #23565]  INFO -- : 
+Starting test: API /register should not register with empty fields
+
+I, [2020-05-13T12:57:39.493747 #23565]  INFO -- : 
+Starting test: API /register should not register with empty username
+
+I, [2020-05-13T12:57:39.503244 #23565]  INFO -- : 
+Starting test: API /register should not register with empty email
+
+I, [2020-05-13T12:57:39.512299 #23565]  INFO -- : 
+Starting test: API /register should not register with empty birthday
+
+I, [2020-05-13T12:57:39.523638 #23565]  INFO -- : 
+Starting test: API /register should not register with empty address
+
+I, [2020-05-13T12:57:39.534064 #23565]  INFO -- : 
+Starting test: API /register should not register with wrong birthday format
+
+I, [2020-05-13T12:57:39.550087 #23565]  INFO -- : 
+Starting test: API /users should get all users
+
+I, [2020-05-13T12:57:39.621030 #23565]  INFO -- : 
+Starting test: API /user should get a valid users
+
+I, [2020-05-13T12:57:39.643268 #23565]  INFO -- : 
+Starting test: API /user should return error for post request
+
+I, [2020-05-13T12:57:39.656713 #23565]  INFO -- : 
+Starting test: API /user should return empty user list
+
+D, [2020-05-13T12:58:35.089244 #24364] DEBUG -- : 
+Starting test: API /register should register with valid data
+
+D, [2020-05-13T12:58:35.132238 #24364] DEBUG -- : 
+Starting test: API /register should not register with already registered user
+
+D, [2020-05-13T12:58:35.175086 #24364] DEBUG -- : 
+Starting test: API /register should not register with empty fields
+
+D, [2020-05-13T12:58:35.185828 #24364] DEBUG -- : 
+Starting test: API /register should not register with empty username
+
+D, [2020-05-13T12:58:35.199975 #24364] DEBUG -- : 
+Starting test: API /register should not register with empty email
+
+D, [2020-05-13T12:58:35.210047 #24364] DEBUG -- : 
+Starting test: API /register should not register with empty birthday
+
+D, [2020-05-13T12:58:35.223314 #24364] DEBUG -- : 
+Starting test: API /register should not register with empty address
+
+D, [2020-05-13T12:58:35.236548 #24364] DEBUG -- : 
+Starting test: API /register should not register with wrong birthday format
+
+D, [2020-05-13T12:58:35.258550 #24364] DEBUG -- : 
+Starting test: API /users should get all users
+
+D, [2020-05-13T12:58:35.308039 #24364] DEBUG -- : 
+Starting test: API /user should get a valid users
+
+D, [2020-05-13T12:58:35.321379 #24364] DEBUG -- : 
+Starting test: API /user should return error for post request
+
+D, [2020-05-13T12:58:35.331865 #24364] DEBUG -- : 
+Starting test: API /user should return empty user list
+
+D, [2020-05-13T12:58:45.903878 #24597] DEBUG -- : 
+Starting test: API /register should register with valid data
+
+D, [2020-05-13T12:58:45.938685 #24597] DEBUG -- : 
+Starting test: API /register should not register with already registered user
+
+D, [2020-05-13T12:58:45.986415 #24597] DEBUG -- : 
+Starting test: API /register should not register with empty fields
+
+D, [2020-05-13T12:58:45.998385 #24597] DEBUG -- : 
+Starting test: API /register should not register with empty username
+
+D, [2020-05-13T12:58:46.010530 #24597] DEBUG -- : 
+Starting test: API /register should not register with empty email
+
+D, [2020-05-13T12:58:46.023079 #24597] DEBUG -- : 
+Starting test: API /register should not register with empty birthday
+
+D, [2020-05-13T12:58:46.043088 #24597] DEBUG -- : 
+Starting test: API /register should not register with empty address
+
+D, [2020-05-13T12:58:46.068624 #24597] DEBUG -- : 
+Starting test: API /register should not register with wrong birthday format
+
+D, [2020-05-13T12:58:46.095271 #24597] DEBUG -- : 
+Starting test: API /users should get all users
+
+D, [2020-05-13T12:58:46.147298 #24597] DEBUG -- : 
+Starting test: API /user should get a valid users
+
+D, [2020-05-13T12:58:46.164119 #24597] DEBUG -- : 
+Starting test: API /user should return error for post request
+
+D, [2020-05-13T12:58:46.180909 #24597] DEBUG -- : 
+Starting test: API /user should return empty user list
+
+D, [2020-05-13T12:59:24.918079 #24810] DEBUG -- : 
+Starting test: API /register should register with valid data
+
+D, [2020-05-13T12:59:24.948612 #24810] DEBUG -- : 
+Starting test: API /register should not register with already registered user
+
+D, [2020-05-13T12:59:24.997895 #24810] DEBUG -- : 
+Starting test: API /register should not register with empty fields
+
+D, [2020-05-13T12:59:25.009759 #24810] DEBUG -- : 
+Starting test: API /register should not register with empty username
+
+D, [2020-05-13T12:59:25.020481 #24810] DEBUG -- : 
+Starting test: API /register should not register with empty email
+
+D, [2020-05-13T12:59:25.030786 #24810] DEBUG -- : 
+Starting test: API /register should not register with empty birthday
+
+D, [2020-05-13T12:59:25.052045 #24810] DEBUG -- : 
+Starting test: API /register should not register with empty address
+
+D, [2020-05-13T12:59:25.062706 #24810] DEBUG -- : 
+Starting test: API /register should not register with wrong birthday format
+
+D, [2020-05-13T13:47:37.426627 #25829] DEBUG -- : 
+Starting test: API /register should register with valid data
+
+D, [2020-05-13T13:47:37.460359 #25829] DEBUG -- : 
+Starting test: API /register should not register with already registered user
+
+D, [2020-05-13T13:47:37.508576 #25829] DEBUG -- : 
+Starting test: API /register should not register with empty fields
+
+D, [2020-05-13T13:47:37.520263 #25829] DEBUG -- : 
+Starting test: API /register should not register with empty username
+
+D, [2020-05-13T13:47:37.533721 #25829] DEBUG -- : 
+Starting test: API /register should not register with empty email
+
+D, [2020-05-13T13:47:37.544918 #25829] DEBUG -- : 
+Starting test: API /register should not register with empty birthday
+
+D, [2020-05-13T13:47:37.563972 #25829] DEBUG -- : 
+Starting test: API /register should not register with empty address
+
+D, [2020-05-13T13:47:37.578254 #25829] DEBUG -- : 
+Starting test: API /register should not register with wrong birthday format
+
+D, [2020-05-13T15:53:13.939787 #29055] DEBUG -- : 
+Starting test: API /register should register with valid data
+
+D, [2020-05-13T15:53:13.974945 #29055] DEBUG -- : 
+Starting test: API /register should not register with already registered user
+
+D, [2020-05-13T15:53:14.025032 #29055] DEBUG -- : 
+Starting test: API /register should not register with empty fields
+
+D, [2020-05-13T15:53:14.036895 #29055] DEBUG -- : 
+Starting test: API /register should not register with empty username
+
+D, [2020-05-13T15:53:14.049249 #29055] DEBUG -- : 
+Starting test: API /register should not register with empty email
+
+D, [2020-05-13T15:53:14.058056 #29055] DEBUG -- : 
+Starting test: API /register should not register with empty birthday
+
+D, [2020-05-13T15:53:14.067241 #29055] DEBUG -- : 
+Starting test: API /register should not register with empty address
+
+D, [2020-05-13T15:53:14.085324 #29055] DEBUG -- : 
+Starting test: API /register should not register with wrong birthday format
+
+D, [2020-05-13T15:53:20.705799 #29269] DEBUG -- : 
+Starting test: API /register should register with valid data
+
+D, [2020-05-13T15:53:20.739204 #29269] DEBUG -- : 
+Starting test: API /register should not register with already registered user
+
+D, [2020-05-13T15:53:20.778282 #29269] DEBUG -- : 
+Starting test: API /register should not register with empty fields
+
+D, [2020-05-13T15:53:20.786730 #29269] DEBUG -- : 
+Starting test: API /register should not register with empty username
+
+D, [2020-05-13T15:53:20.794938 #29269] DEBUG -- : 
+Starting test: API /register should not register with empty email
+
+D, [2020-05-13T15:53:20.810336 #29269] DEBUG -- : 
+Starting test: API /register should not register with empty birthday
+
+D, [2020-05-13T15:53:20.835724 #29269] DEBUG -- : 
+Starting test: API /register should not register with empty address
+
+D, [2020-05-13T15:53:20.843788 #29269] DEBUG -- : 
+Starting test: API /register should not register with wrong birthday format
+

@@ -12,6 +12,7 @@ module QA
       it 'should get all users' do
         get address.url
         expect_status '200'
+        expect_json_types(:array_of_arrays)
         expect(json_body[0][:pk]).to eql(1)
         expect(json_body[0].class).to be(Hash)
         expect(json_body.size).to be > 0

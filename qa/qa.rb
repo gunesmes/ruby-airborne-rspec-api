@@ -12,6 +12,8 @@ module QA
   # QA runtime classes, mostly singletons.
   #
   module Runtime
+    autoload :Logger, 'runtime/logger'
+    autoload :Env, 'runtime/env'
 
     module API
       autoload :Client, 'runtime/api/client'
