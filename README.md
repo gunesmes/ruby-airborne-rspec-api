@@ -17,22 +17,22 @@ When bundler is installed, you can install requirements by bundler
 
 ```shell script
 # go to root folder where Gemfile is present
-cd rspec-api/
+cd rspec-api
 bundle install
 ```
 
 ## Run a test file
 ```shell script
 cd rspec-api
-rspec  rspec specs/features/register/register_spec.rb 
+rspec  rspec spec/features/register/register_spec.rb 
 ```
 
 ## Run tests with creating reports
 ```shell script
 cd rspec-api
 # html report
-rspec specs --format html --out reports/rspec_results.html
+rspec spec/features --format html --out reports/rspec_results.html
 
 # document report
-rspec specs --format progress --format documentation --out rspec.txt 
+rspec spec/features --format progress --format documentation --out rspec.txt 
 ```
