@@ -8,14 +8,14 @@ Depending on your OS you can setup Ruby by [this link](https://www.ruby-lang.org
 ## Install `bundler`
 When Ruby setup is done, you can install bundler
 
-```shell script
+```shell
 gem install bundler
 ```
 
 ## Install requirements with bundler
 When bundler is installed, you can install requirements by bundler 
 
-```shell script
+```shell
 # go to root folder where Gemfile is present
 cd rspec-api
 bundle install
@@ -24,7 +24,7 @@ bundle install
 ## Run a test file
 ```shell script
 cd rspec-api
-rspec  rspec spec/features/register/register_spec.rb 
+rspec spec/features/register/register_spec.rb 
 ```
 
 ## Run tests with creating reports
